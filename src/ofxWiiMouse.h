@@ -59,13 +59,13 @@ struct ofxWiiMouseEventArgs {
 
 class ofxWiiMouseApp : public ofBaseApp {
   public:
-    virtual void wiiMouseConnect();
-    virtual void wiiMouseConnected(int connected, int found);
-    virtual void wiiMouseMoved(int x, int y);
-    virtual void wiiMousePressed(int x, int y, int button);
-    virtual void wiiMouseReleased(int x, int y, int button);
-    virtual void wiiMouseButtonHeld(int x, int y, int button);
-    virtual void wiiMouseDragged(int x, int y, int button);
+    virtual void wiiMouseConnect() {}
+    virtual void wiiMouseConnected(int connected, int found) {}
+    virtual void wiiMouseMoved(int x, int y) {}
+    virtual void wiiMousePressed(int x, int y, int button) {}
+    virtual void wiiMouseReleased(int x, int y, int button) {}
+    virtual void wiiMouseButtonHeld(int x, int y, int button) {}
+    virtual void wiiMouseDragged(int x, int y, int button) {}
 };
 
 class ofxWiiMouse : public ofThread {
