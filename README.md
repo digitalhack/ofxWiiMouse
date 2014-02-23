@@ -1,4 +1,4 @@
 ofxWiiMouse
 ===========
 
-ofxWiiMouse is an openFrameworks add on that allows you to use a Wiimote as a mouse in openFrameworks.
+ofxWiiMouse is an openFrameworks addon that allows you to use a Wiimote as a mouse in openFrameworks.
