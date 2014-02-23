@@ -89,6 +89,8 @@
 # incorporated directly into the final executable application binary.
 # TODO: should this be a default setting?
 # PROJECT_LDFLAGS=-Wl,-rpath=./libs
+################################################################################
+PROJECT_LDFLAGS=-lwiiuse
 
 ################################################################################
 # PROJECT DEFINES
